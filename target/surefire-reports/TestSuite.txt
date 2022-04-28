@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.71 s <<< FAILURE! - in TestSuite
+testRetrieveDataFromDataSet on testRetrieveDataFromDataSet(com.automation.conditionsCollectionsJunit)(com.automation.conditionsCollectionsJunit)  Time elapsed: 0.04 s  <<< FAILURE!
+java.util.UnknownFormatConversionException: Conversion = 'i'
+	at com.automation.conditionsCollectionsJunit.testRetrieveDataFromDataSet(conditionsCollectionsJunit.java:47)
+
+checkIfNumberIsNotPrime_02 on checkIfNumberIsNotPrime_02(com.automation.conditionsJunit)(com.automation.conditionsJunit)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: This is not a prime
+	at com.automation.conditionsJunit.checkIfNumberIsNotPrime_02(conditionsJunit.java:68)
+
+checkIfNumberIsPrime_02 on checkIfNumberIsPrime_02(com.automation.conditionsJunit)(com.automation.conditionsJunit)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: This is not a prime
+	at com.automation.conditionsJunit.checkIfNumberIsPrime_02(conditionsJunit.java:58)
+
+practicing_test_01 on practicing_test_01(com.automation.dataTypeJunit)(com.automation.dataTypeJunit)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: Failed result!!
+	at com.automation.dataTypeJunit.practicing_test_01(dataTypeJunit.java:22)
+
+checkIfNumberIsNotPrime_02 on checkIfNumberIsNotPrime_02(com.automation.loopsJunit)(com.automation.loopsJunit)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: This is a prime
+	at com.automation.loopsJunit.checkIfNumberIsNotPrime_02(loopsJunit.java:43)
+
